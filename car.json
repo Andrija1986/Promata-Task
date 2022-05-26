@@ -1,0 +1,16 @@
+{
+    "ford_mustang" : {
+    "length" : "24784mm",
+    "width" : "1916mm",
+    "height" : "1400mm",
+    "doors" : "2",
+    "seats" : "4",
+    "engine" : "4.6L V8",
+    "transmission" : "6-speed manual",
+    "drivetrain" : "RWD",
+    "fuel_type" : "gasoline",
+    "engine_size" : "4.6L",
+    "horsepower" : "300",
+    "zero_to_sixty" : "3.5"
+  }
+}

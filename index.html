@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promata Aufgabe</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Fahrzeugkonfiguration</h1>
+    </header>
+    <main>
+      <div>
+        <h2>Techinschen Daten:</h2>
+        <div class="select">
+          <select
+            id="carOptions"
+            value="text"
+            onchange="getHandler(event)"
+          ></select>
+          <div id="paragraph">
+            <input type="text" name="name" />
+          </div>
+        </div>
+      </div>
+      <div class="hinzufügen">
+        <h2>Hinzufügen:</h2>
+
+        <input id="key" type="text" />
+        <input id="value" type="text" />
+        <button id="btn" type="submit" onclick="saveTechnicData(event)">
+          Speichern
+        </button>
+      </div>
+      <div>
+        <h2>Entfernen:</h2>
+
+        <select id="delete" value="text"></select>
+        <button id="btnDelete" onclick="deleteTechnicData()">Löschen</button>
+      </div>
+      <div>
+        <h2>Download:</h2>
+        <button id="btnDownload" onclick="downloadTechnicData()">
+          Download
+        </button>
+      </div>
+    </main>
+    <footer><h2>®️ Andrija Petrovic 2022</h2></footer>
+  </body>
+</html>
