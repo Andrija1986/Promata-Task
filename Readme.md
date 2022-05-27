@@ -37,3 +37,9 @@ Entfernen-Funktion gelöscht hat, soll es über den Button „Download“ mögli
 #### Footer:
 
 Wähle hier einen Foster deiner Wahl, der zu deinem Design passt.
+
+# Anleitung zum Ausführen der Anwendung
+
+Ich musste einen Server npm i server installieren, um car.json Daten im Broweser auslesen zu können.
+
+ich habe HTML mit Hilfe live server extansion geöffnet.

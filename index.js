@@ -55,7 +55,7 @@ const getHandler = (event) => {
 GER: Funktion, mit der ich neue technische Daten hinzufüge, speichere
 ENG:function by which I add, save new technical data
 */
-const addTechnicData = (event) => {
+const addTechnicData = () => {
 
 
     //I am accessing the car.json file and so that I can access the values that will be entered in the input tag
@@ -67,6 +67,7 @@ const addTechnicData = (event) => {
     //I update the global variable which is now the file car.json, and whenever it changes, ie. adds new technical data
     //Ich aktualisiere die globale Variable, die jetzt die Datei car.json ist, und wann immer sie sich ändert, dh. fügt neue technische Daten hinzu
     showData(globalData.ford_mustang);
+
 
 }
 
